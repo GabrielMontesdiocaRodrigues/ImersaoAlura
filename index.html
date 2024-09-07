@@ -12,38 +12,16 @@
     </Header>
     <main>
         <section>
-            <input type="text" placeholder="Digite o nome do atleta"> 
-            <button>Pesquisar</button>
+            <input type="text" placeholder="Digite o nome do atleta" id="campoPesquisa"> 
+            <button onclick="pesquisar()">Pesquisar</button>
         </section>
-        <section class="resultados-pesquisa">
-            <div class="item-resultado">
-                <h2>
-                    <a target="_blank" href="#">Rebeca Andrade</a>
-                </h2>      
-                <p class="descricao-meta">Rebeca Andrade é uma ginasta artística brasileira que conquistou o coração dos brasileiros e se tornou um dos maiores nomes do esporte nacional. Com seu talento, determinação e carisma, Rebeca acumulou diversas medalhas em competições nacionais e internacionais, incluindo os Jogos Olímpicos. Suas performances inspiradoras e sua trajetória de superação a transformaram em um verdadeiro ícone da ginástica, sendo um exemplo para jovens atletas e para todos aqueles que buscam alcançar seus objetivos.
-                </p>           
-            </div>
-            <div class="item-resultado">
-                <h2>
-                  <a target="_blank" href="https://pt.wikipedia.org/wiki/Rayssa_Leal">Rayssa Leal</a>
-                </h2>
-                <p class="descricao-meta">
-                  Skatista profissional brasileira, conhecida como "Fadinha", que se tornou a mais jovem medalhista olímpica da história do Brasil.
-                </p>
-            </div>
-            <div class="item-resultado">
-                <h2>
-                  <a target="_blank" href="https://www.cbj.com.br/atletas/beatriz-souza/" >Beatriz Souza</a>
-                </h2>
-                <p class="descricao-meta">
-                    Beatriz Souza é uma judoca brasileira que conquistou o país ao trazer a primeira medalha de ouro para o Brasil nas Olimpíadas de 2024, em Paris. Sua força, determinação e técnica impecável a tornaram um ícone do esporte nacional e um exemplo para jovens atletas.
-                </p>
-              </div>       
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
         </section>
     </main>
     <footer>
         <p>2024 - Atletas do Brasil. Todos os direitos reservados</p>
     </footer>
+    <script src="dados.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
