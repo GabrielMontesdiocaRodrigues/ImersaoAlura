@@ -28,7 +28,7 @@ Este projeto tem como objetivo demonstrar a aplicação do Google Gemini em um c
 3. **Clone o repositório:** Cole a URL copiada e execute o comando:
 
    ```bash
-   git clone 
+   git clone https://github.com/GabrielMontesdiocaRodrigues/ImersaoAlura.git
    ```
 
 ##### **Iniciando o Servidor Local:**
